@@ -30,7 +30,7 @@ This began it's life with the aspirations of creating software that can solve ch
 | [src/ast/expr.rs](https://github.com/colbyn/SubSystems/blob/main/compiler/src/ast/expr.rs)| Something akin to a computer algebra system. |
 | [src/ast/funs.rs](https://github.com/colbyn/SubSystems/blob/main/compiler/src/ast/funs.rs)| My ad-hoc implementation of a computer algebra rewrite or transformation system. |
 
-The code in `src/ast/expr.rs` was particular challenging, since I had to figure out how to implement basic processes that we take for granted, such as simplifying fractions and cancelling canceling common factors, which includes algebraic expressions (such as being able to simplify `1/(1/x) = x` and `(ab)/a = b`).
+The code in `src/ast/expr.rs` was particular challenging, since I had to figure out how to implement basic processes that we take for granted. Such as simplifying fractions and cancelling common factors, which includes algebraic expressions (such as being able to simplify `1/(1/x) = x` and `(ab)/a = b`).
 
 Likewise, the code under `src/ast/funs.rs` implements an entire DSL for defining bottom-up transformations of tree like data structures. It's where this sorta functionality `mole(energy(photon(wavelength = nm(325))))` is implemented. 
 
