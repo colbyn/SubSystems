@@ -42,6 +42,8 @@ Recently, I discovered this project called [egison](https://www.egison.org), whi
 
 The only issue is that [egison](https://www.egison.org) is implemented in Haskell, which is a language I'm comfortable with, but Rust is easier to integrate into projects, and supports compiling to the web VIA WebAssembly. So my game plan is to drop my preexisting implementation of SubScript and reimplement [egison](https://www.egison.org) in a manner that better suits my preferences. 
 
+## Long Term Plans
+
 Overall, the most frequently cited issue of analog computing seems to pertain to both programmability issues and supporting software ecosystem, which I plan on accommodating. 
 
 My long term aspirations is to begin with a business model founded upon offering solutions to computational chemistry and biology fields. Which, according to Grand View Research, Inc, is expected to reach $13.6 billion, by 2026. Specially, I'm imagining a cloud based business model focused on hardware accelerators optimized for various application specific workloads. Where my aforementioned language will serve as the frontend to such.
