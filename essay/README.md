@@ -48,3 +48,6 @@ Overall, the most frequently cited issue of analog computing seems to pertain to
 
 My long term aspirations is to begin with a business model founded upon offering solutions to computational chemistry and biology fields. Which, according to Grand View Research, Inc, is expected to reach $13.6 billion, by 2026. Specially, I'm imagining a cloud based business model focused on hardware accelerators optimized for various application specific workloads. Where my aforementioned language will serve as the frontend to such.
 
+## PS
+
+You can see a preview of what I wrote in `chem-rs` over here on [this page](https://colbyn.github.io/SubSystems/). It doesn't show off everything that it can do. <small>Also there is an issue in my implementation for solving augmented matrices. So the part that automatically balances chemical equations doesn't work.</small>
