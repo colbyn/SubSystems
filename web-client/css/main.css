@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    margin-bottom: 200px;
+}
+
+
+[form-wrapper] {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 12px;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+[form-wrapper] > form {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+[form-wrapper] > form > input {
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 12px;
+}
+
+[form-wrapper] > form > input[type='text'] {
+    padding: 8px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Source Code Pro', monospace;
+}
+
+table > tr > td:first-child {
+    text-align: right;
+}
+
+td {
+    padding: 4px;
+}
+
+pre, code {
+    font-family: 'Source Code Pro', monospace;
+}
